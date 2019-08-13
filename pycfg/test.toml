@@ -1,0 +1,14 @@
+[user]
+    name = "Tom"
+    email = "tom@example.com"
+
+[products]
+    [products.server1]
+        host = 'server1'
+        ip = '10.0.0.1'
+        dc = 'dc10'
+
+    [products.server2]
+        host = 'server2'
+        ip = '10.0.0.2'
+        dc = 'dc20'
